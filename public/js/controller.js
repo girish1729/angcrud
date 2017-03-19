@@ -1,5 +1,12 @@
-var app = angular.module('Crud', ['ngResource', 'ui.router']);
+var app = angular.module('Crud', ['ngResource', 'ngMaterial', 'ngAnimate', 
+	'ngAria', 'ngMessages', 'ui.router']);
 
+app.config(function ($mdThemingProvider) {
+        $mdThemingProvider.theme('default')
+            .primaryPalette('green')
+            .accentPalette('brown');
+});
+     
 app.config(function($stateProvider, $urlRouterProvider){  
 	$urlRouterProvider.otherwise("/");
     $stateProvider
