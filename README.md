@@ -27,6 +27,8 @@ Usage
 ```
 
 $ npm install
+$ cd public
+$ bower install
 $ npm start
 
 ```
