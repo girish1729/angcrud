@@ -37,7 +37,7 @@ $ npm start
 
 ```
 
-Go to [link](http://localhost:2333/)
+Go to [http://localhost;2333](http://localhost:2333/)
 
 Contact
 =======
