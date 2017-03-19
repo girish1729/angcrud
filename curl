@@ -1,0 +1,14 @@
+
+
+# Create 
+curl -X POST -d "user=bhav&pass=dose&company=12" \
+	http://localhost:2333/api/create
+# Read
+curl -X GET -d "user=bhav&pass=dose&company=12" \
+	http://localhost:2333/api/read
+# Update
+curl -X PUT -d "user=bhav&pass=dose&company=12" \
+	http://localhost:2333/api/update
+# Delete
+curl -X DELETE -d "user=bhav&pass=dose&company=12" \
+	http://localhost:2333/api/delete
